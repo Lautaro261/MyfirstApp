@@ -7,10 +7,12 @@ import React from 'react';
 import {PaperProvider} from 'react-native-paper';
 //import {CounterM3Screen} from './src/presentation/screens/CounterM3Screen';
 import IonIcon from 'react-native-vector-icons/Ionicons';
+import { HomeworkScreen } from './src/presentation/screens/HomeworkScreen';
 //import { ObjectModelScreen } from './src/presentation/screens/ObjectModelScreen';
 //import { DimensionScreen } from './src/presentation/screens/DimensionScreen';
 //import { PositionScreen } from './src/presentation/screens/PositionScreen';
-import { FlexScreen } from './src/presentation/screens/FlexScreen';
+//import { FlexScreen } from './src/presentation/screens/FlexScreen';
+//import { FlexDirectionScreen } from './src/presentation/screens/FlexDirectionScreen';
 
 export const App = () => {
   return (
@@ -25,7 +27,9 @@ export const App = () => {
         {/* <ObjectModelScreen/> */}
         {/* <DimensionScreen/> */}
         {/* <PositionScreen/> */}
-        <FlexScreen/>
+        {/* <FlexScreen/> */}
+        {/* <FlexDirectionScreen/> */}
+        <HomeworkScreen/>
       </SafeAreaView>
     </PaperProvider>
   );
